@@ -1,0 +1,20 @@
+# Model files
+*.pt
+*.pdmodel
+*.pdiparams
+*.pdiparams.info
+
+# Virtual environments
+*-env/
+venv/
+env/
+.env/
+mamasight-env/
+
+# Python package build artifacts
+*.egg-info/
+dist/
+build/
+__pycache__/
+*.py[cod]
+*$py.class
