@@ -37,7 +37,7 @@ parser.setup(yolo_device='gpu', ocr_device='gpu')  # Use 'cuda' if you have a GP
 # Path to test image - replace with actual path to your test image
 test_image_path = "image.png"
 
-# Analyze image without OCR
+# Analyze image with OCR
 start_time = time.time()
 image, detections = parser.analyze(test_image_path, use_ocr=True)
 ```
