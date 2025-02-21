@@ -38,8 +38,6 @@ setup(
         "paddleocr",
         "easyocr",
         "pandas",
-        "pillow",
-         "requests",
-        "huggingface_hub>=0.13.0",
+        "pillow"
     ],
 )

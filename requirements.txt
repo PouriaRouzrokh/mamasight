@@ -9,6 +9,3 @@ paddleocr
 easyocr
 pandas
 pillow
-requests
-huggingface-hub
-huggingface_hub>=0.13.0 

@@ -345,12 +345,12 @@ class ScreenParser:
             cv2.rectangle(annotated, (x1, y1), (x2, y2), box_color, thickness)
 
             # Prepare label
-            label = f"{box_type}"
-            if content:
-                # Truncate long text
-                if len(content) > 30:
-                    content = content[:27] + "..."
-                label += f": {content}"
+            label = f"{box_type}_{idx}"
+            # if content:
+            #     # Truncate long text
+            #     if len(content) > 30:
+            #         content = content[:27] + "..."
+            #     label += f": {content}"
 
             # Get text size
             text_size = cv2.getTextSize(label, cv2.FONT_HERSHEY_SIMPLEX,
